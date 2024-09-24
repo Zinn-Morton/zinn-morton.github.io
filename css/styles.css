@@ -311,7 +311,7 @@ footer {
   color: #374054;
 }
 #about p {
-  color: #74808a;
+  color: #333;
   margin: 0;
 }
 #experience {
@@ -668,6 +668,13 @@ footer {
   .vtimeline-content {
     margin-left: 70px;
   }
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.gap-1rem {
+  gap: 1rem;
 }
 @media only screen and (max-width: 992px) {
   #lead {

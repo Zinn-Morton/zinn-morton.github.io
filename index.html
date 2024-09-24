@@ -73,16 +73,29 @@
           <div class="col-md-4">
             <h2 class="heading">About Me</h2>
           </div>
-          <div class="col-md-8">
+          <div class="col-md-8 flex-col gap-1rem">
             <p>
-              I'm a Computer Science graduate from Oregon State University with
-              a focus in AI. I was the project leader for my team's machine
-              learning R&D-based capstone project. There, I managed our sprints,
-              workload division, and communication with the company, TAs, and
-              professors. I also worked as a member of the team and implemented
-              and applied some anomaly detection algorithms to the data we
-              received. I am working to progress my career and add new tools to
-              my toolkit. I am currently learning React and ExpressJS.
+              I am a Computer Science graduate from Oregon State University with
+              a focus in AI and machine learning. I completed an exchange
+              program at Aoyama Gakuin University in Japan, where I learned
+              about Japanese language, culture, and politics. I am a Grand
+              Catalyst Scholar, having received a prestigious award that
+              supports high-achieving and high-financial-need students in
+              engineering.
+            </p>
+            <p>
+              I have hands-on experience in leading and implementing machine
+              learning projects, as I was the project leader for my team's
+              capstone project with Ampere Scientific. I managed the project's
+              sprints, workload division, and communication with the
+              stakeholders, while also applying anomaly detection algorithms to
+              the data we received.
+            </p>
+            <p>
+              I am proficient in React, Express, MongoDB, CSS, and HTML. I am
+              eager to progress my career and add new tools to my toolkit, and I
+              am looking for opportunities that will challenge me and allow me
+              to help people as a software engineer.
             </p>
           </div>
         </div>
@@ -108,6 +121,87 @@
     </div>
     <!-- End #education -->
 
+    <div id="experience" class="background-alt">
+      <h2 class="heading">Experience</h2>
+      <div id="experience-timeline">
+        <div data-date="May 2024 – August 2024">
+          <h3>Civil West Construction</h3>
+          <h4>Web Developer, Business Systems Analyst</h4>
+          <ul style="color: #333" class="flex-col gap-1rem">
+            <li>
+              Redesigned the company website using React, optimizing user
+              experience and ensuring mobile responsiveness, leading to a 50%
+              reduction in bounce rate.
+            </li>
+            <li>
+              Developed and optimized advanced spreadsheets using VBA that
+              streamlined construction project management processes, resulting
+              in a 20% reduction in project tracking time and a 15% improvement
+              in cost analysis accuracy.
+            </li>
+            <li>
+              Collaborated with project managers and stakeholders to identify
+              inefficiencies in current workflows, implementing solutions that
+              enhanced data accuracy and decision-making.
+            </li>
+            <li>
+              Developed custom automation scripts to handle repetitive
+              administrative tasks, resulting in a 35% reduction in
+              administrative overhead and freeing up 15 hours per week for
+              project-focused work.
+            </li>
+          </ul>
+        </div>
+
+        <div data-date="April 2019 – March 2020">
+          <h3>Chemeketa Community College</h3>
+          <h4>Math Tutor</h4>
+          <ul style="color: #333" class="flex-col gap-1rem">
+            <li>
+              Reviewed and analyzed questions with students, assessing their
+              understanding and identifying areas needing improvement, resulting
+              in an average letter grade increase in scores for their math
+              classes and a 20% increase in exam pass rates.
+            </li>
+            <li>
+              Problem-solved with students in an individualized manner in
+              accordance with their understanding and proficiency.
+            </li>
+            <li>
+              Collaborated with faculty members to align tutoring methods with
+              the curriculum, ensuring consistency and effectiveness in teaching
+              methods.
+            </li>
+            <li>
+              Created and maintained a resource library of practice problems and
+              solutions that was accessed by over 200 students, enhancing their
+              independent study efforts.
+            </li>
+          </ul>
+        </div>
+
+        <div data-date="September 2018 – April 2019">
+          <h3>Village Home</h3>
+          <h4>Middle School Math Mentor</h4>
+          <ul style="color: #333" class="flex-col gap-1rem">
+            <li>
+              Conducted weekly collaborative classes for students interested in
+              expanding their math skills.
+            </li>
+            <li>
+              Developed and implemented personalized lesson plans tailored to
+              each student’s unique learning needs and goals.
+            </li>
+            <li>
+              Fostered a supportive and inclusive environment, offering
+              individualized attention to encourage engagement and confidence.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End #experience -->
+
     <div id="projects" class="background-alt">
       <h2 class="heading">Projects</h2>
       <div class="container">
@@ -119,40 +213,26 @@
             <!-- End .project-image -->
             <div class="project-info">
               <h3>Tokyo Metro Interactive Map</h3>
-              <p>
-                &nbsp;&nbsp;&nbsp;&nbsp;Created an immersive, user-friendly,
-                interactive map of the Tokyo Metro subway network by harnessing
-                data from the Public Transportation Open Data Center API.
-              </p>
-              <p class="ul-title">Features:</p>
               <ul>
                 <li>
-                  Provided users with the ability to effortlessly access
-                  comprehensive information about each station, including its
-                  associated lines, through intuitive click functionality
+                  Developed a full-stack web application to display an
+                  interactive map of the Tokyo Metro subway network that allows
+                  users to find and navigate the best subway routes.
                 </li>
                 <li>
-                  Created mouse hover functionality to view train line names
+                  Implemented a user-friendly UI using React with toggle-able
+                  line information and visibility and the ability to get
+                  directions between two stations using graph algorithms.
                 </li>
                 <li>
-                  Enhanced user experience with dynamic features allowing
-                  toggling of line visibility
-                </li>
-                <li>
-                  Provided a Dijkstra’s-based metro directions search for
-                  finding the route between two station
-                </li>
-                <li>
-                  Allowed users to customize their viewing experience with
-                  toggles for Tokyo map visibility and dark/light mode
+                  Used NodeJS, Express for backend logic interfacing with Public
+                  Transportation Open Data Center API to retrieve metro data.
                 </li>
                 <li>
                   Ensured inclusivity and accessibility by providing language
-                  options in English, Japanese, Korean, and both simplified and
-                  traditional Chinese
+                  options in English, Japanese, Korean, and Chinese.
                 </li>
               </ul>
-              <p>Made using a tech stack of React, Vite, and Express</p>
               <a
                 href="https://tokyo-metro-interactive-map.fly.dev/"
                 class="center-link"
@@ -170,28 +250,28 @@
             <!-- End .project-image -->
             <div class="project-info">
               <h3>Capstone Project with Ampere Scientific</h3>
-              <p>
-                &nbsp;&nbsp;&nbsp;&nbsp;During my capstone project, I was the
-                project leader for a team of 5 students working to detect
-                anomalies in time-series data from a metal remelting crucible.
-                As the project leader, I divided sprint tasks, scheduled the
-                project timeline, and served as the fundamental communication
-                point between the team, Ampere Scientific, and other work
-                partners.
-              </p>
-              <p>
-                &nbsp;&nbsp;&nbsp;&nbsp;Additionally, I researched an
-                implemented anomaly detection algorithms such as Cusum, Control
-                Chart, and Autoregression. I led my team to create a prototype
-                with anomaly detection methods and visualization for these
-                methods that can serve as a basis for future development.
-              </p>
-              <p>
-                &nbsp;&nbsp;&nbsp;&nbsp;You can view my work on my
-                aforementioned capstone project here under "Zinn Tests." Feel
-                free to look at the documentation for more detail on the methods
-                I implemented and their results.
-              </p>
+              <ul>
+                <li>
+                  Project leader for a team of students implementing anomaly
+                  detection in time-series data from a metal remelting crucible.
+                </li>
+                <li>
+                  Researched and implemented anomaly detection algorithms using
+                  Python, including Cusum, Control Chart, and Autoregression.
+                </li>
+                <li>
+                  Implemented a variety of features to improve accuracy and
+                  runtime, such as data normalization and agglomeration.
+                </li>
+                <li>
+                  Developed a data visualization webapp for results using NodeJS
+                  and Python.
+                </li>
+                <li>
+                  Divided sprint tasks, scheduled the project timeline, and
+                  served as the fundamental communication point for the team.
+                </li>
+              </ul>
               <a
                 href="https://github.com/justinflesch/magnetic-flux-anomaly-detection/tree/main/Zinn%20Tests"
                 class="center-link"
@@ -256,56 +336,21 @@
     </div>
     <!-- End #projects -->
 
-    <div id="experience" class="background-alt">
-      <h2 class="heading">Experience</h2>
-      <div id="experience-timeline">
-        <div data-date="April 2019 – March 2020">
-          <h3>Chemeketa Community College</h3>
-          <h4>Math Tutor</h4>
-          <p style="color: #333">
-            As a math tutor, I assisted and guided students in solving their
-            homework problems. First, I reviewed the question with the student
-            and made sure their understanding of the problem was correct. Then I
-            would check their work step by step with the student and ask them to
-            explain their thought process. After this, I was able to gain a good
-            understanding of where their gaps in knowledge were. Once I
-            understood this, I was able to point out where the mistake was in a
-            personalized way in accordance to their knowledge. I would then do
-            another short example problem with the student to make sure they
-            understood. Additionally, I would bring to the student's attention
-            edge cases where the approach we took may not work. As part of this
-            work I received College Reading and Learning Association tutor
-            certification.
-          </p>
-        </div>
-
-        <div data-date="September 2018 – April 2019">
-          <h3>Village Home</h3>
-          <h4>Middle School Math Mentor</h4>
-          <p style="color: #333">
-            As a middle school math mentor, I hosted a small and collaborative
-            class weekly for students curious about learning more math. The
-            topics in this class were largely directed by the students'
-            interests. Throughout the course, I gained an intuition of what each
-            student would like to learn. Additionally, I introduced new topics
-            in a fun way that would keep the students interested, as I believe
-            that it is crucial for the educators of the next generation to teach
-            in a way that keeps students truly engaged.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!-- End #experience -->
-
     <div id="skills">
       <h2 class="heading">Skills</h2>
       <ul>
         <li>C++</li>
+        <li>Java</li>
         <li>Python</li>
-        <li>HTML/PHP/CSS</li>
+        <li>HTML/CSS</li>
+        <li>SQL</li>
         <li>React</li>
         <li>Express</li>
         <li>Numpy</li>
+        <li>VBA</li>
+        <li>JWT</li>
+        <li>Leaflet</li>
+        <li>Matplotlib</li>
         <li>Japanese language</li>
         <li>Interpersonal Communication</li>
         <li>Attention to detail</li>
